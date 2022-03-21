@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(28.15deg, #C1D343 36.62%, #FF6600  15.61%);
+}
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  border-radius: 7px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: #F7F7CF;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: 400;
+  font-size: 84px;
+}
+
+.banner p {
+  color: #F7F7CF;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  opacity: .9;
+}
+
+.main {
+  margin-top:25px;
+}
+
+.content{
+  background-color: rgba(255, 255, 255, 0.493);
+  margin-bottom: 25px;
+  padding: 40px;
+  border-radius: 7px;
+}
+
+.content p{
+  color: #990000;
+  font-size: 27px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align: center;
+  
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 22px;
+  height: 250px;
+}
+
+.card-category {
+  border-radius: 7px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F7F7CF;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.footer {
+  background: linear-gradient(28.15deg, #C1D343 84.62%, #FF6600  15.61%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 42px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+  color: #990000;
+}
+.footer .fa-heart {
+  color: #990000;
+}
