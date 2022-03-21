@@ -8,19 +8,21 @@
 }
 
 body {
-  background: linear-gradient(28.15deg, #C1D343 36.62%, #FF6600  15.61%);
+  background: linear-gradient(28.15deg, #C1D343 36.62%, #FF6600  85.61%);
 }
 
 .container {
   margin-left: 50px;
   margin-right: 50px;
 }
+
 .banner {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
   border-radius: 7px;
 }
+
 
 .banner h1 {
   margin: 0;
@@ -79,7 +81,7 @@ body {
 }
 
 .footer {
-  background: linear-gradient(28.15deg, #C1D343 84.62%, #FF6600  15.61%);
+  background: linear-gradient(28.15deg, #C1D343 36.62%, #FF6600  85.61%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,6 +104,29 @@ body {
   opacity: 1;
   color: #990000;
 }
+
 .footer .fa-heart {
   color: #990000;
+}
+@media screen and (max-width: 520px) {
+  .banner {
+    padding: 40px 0;
+  }
+
+  .container h1{
+    font-size: 47px;
+  }
+
+    .container p{
+    font-size: 17px;
+  }
+
+  .cards {
+    padding: 60px 0;
+  }
+
+  .card-category {
+    font-size: 17px;
+  }
+
 }
